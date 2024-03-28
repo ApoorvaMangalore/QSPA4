@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Data base connection start]]>
+    </line>
+    <line>
+      <![CDATA[User is able to open empty browser]]>
+    </line>
+    <line>
+      <![CDATA[User is able to open DemoWeBshop]]>
+    </line>
+    <line>
+      <![CDATA[User is able to land on Demoweb shop Home page]]>
+    </line>
+    <line>
+      <![CDATA[User is able close the demowebshop]]>
+    </line>
+    <line>
+      <![CDATA[Data base connection stop]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-20T15:23:04 IST" name="Default suite" finished-at="2024-03-20T15:23:32 IST" duration-ms="27856">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T15:23:04 IST" name="Default test" finished-at="2024-03-20T15:23:32 IST" duration-ms="27856">
+      <class name="wokingWithPom.Program2">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:wokingWithPom.Program2@5fa07e12]" started-at="2024-03-20T15:23:04 IST" name="beforeSuite" finished-at="2024-03-20T15:23:04 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Data base connection start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:wokingWithPom.Program2@5fa07e12]" started-at="2024-03-20T15:23:04 IST" name="browserSetUp" finished-at="2024-03-20T15:23:17 IST" duration-ms="13140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to open empty browser]]>
+            </line>
+            <line>
+              <![CDATA[User is able to open DemoWeBshop]]>
+            </line>
+            <line>
+              <![CDATA[User is able to land on Demoweb shop Home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method signature="searchProduct()[pri:0, instance:wokingWithPom.Program2@5fa07e12]" started-at="2024-03-20T15:23:17 IST" name="searchProduct" finished-at="2024-03-20T15:23:31 IST" duration-ms="13969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="toQuitBrowser()[pri:0, instance:wokingWithPom.Program2@5fa07e12]" started-at="2024-03-20T15:23:31 IST" name="toQuitBrowser" finished-at="2024-03-20T15:23:32 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is able close the demowebshop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toQuitBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:wokingWithPom.Program2@5fa07e12]" started-at="2024-03-20T15:23:32 IST" name="afterSuite" finished-at="2024-03-20T15:23:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Data base connection stop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- wokingWithPom.Program2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
